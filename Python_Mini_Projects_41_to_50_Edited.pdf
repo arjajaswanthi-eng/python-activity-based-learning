@@ -1,0 +1,4123 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 20
+/Kids [ 4 0 R 12 0 R 15 0 R 18 0 R 21 0 R 24 0 R 27 0 R 30 0 R 33 0 R 36 0 R 39 0 R 42 0 R 45 0 R 48 0 R 51 0 R 54 0 R 57 0 R 60 0 R 63 0 R 66 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5136
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .909804 RG
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (Python Mini Projects | Topics 41\22650) Tj T* ET
+BT 1 0 0 1 518.9 28.34646 Tm (Page 2) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 770.5354 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (41. Nested List Classroom Occupancy Analysis) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 748.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (1. Problem Statement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 718.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (To manage classroom seating using nested lists, allocate students, preserve reserved seats, identify duplicate) Tj T* (assignments and calculate vacant seats.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 697.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (2. Objectives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 679.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Store classroom seating details.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 661.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Allocate students to vacant seats.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 643.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Preserve reserved seats.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 625.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Detect duplicate student assignments.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 607.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Calculate vacant capacity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 586.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (3. Assumptions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 568.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 There are 2 classrooms, each with 5 seats.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 550.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 'R' represents a reserved seat; None represents a vacant seat.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 529.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (4. Algorithm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 511.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. Create nested lists for classrooms.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 493.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Allocate each student to the first available vacant seat, skipping reserved seats.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 475.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. Check assigned names for duplicates.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 457.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. Count vacant seats and display the report.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 436.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (5. Flowchart) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 406.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Start ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Create classroom lists ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Allocate students ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Skip reserved/occupied seats ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Check duplicates ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Count vacant) Tj T* (seats ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Display report ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( End) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 385.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (6. Pseudocode) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 273.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 100.8 Tm /F4 7.2 Tf 9 TL (START) Tj T* (Create classroom nested list) Tj T* (FOR each student) Tj T* (    Find a vacant seat) Tj T* (    IF seat is available) Tj T* (        Allocate student) Tj T* (    ELSE) Tj T* (        Display seat unavailable) Tj T* (Check duplicate names) Tj T* (Count vacant seats) Tj T* (Display classroom details) Tj T* (STOP) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 252.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (7. Python Source Code) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 68.53543 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 172.8 Tm /F4 7.2 Tf 9 TL (classrooms = [) Tj T* (    ["A", None, "R", None, "B"],) Tj T* (    [None, "C", None, "D", "R"]) Tj T* (]) Tj T*  T* (students = ["Teja", "Ravi", "Priya"]) Tj T*  T* (for student in students:) Tj T* (    allocated = False) Tj T* (    for room in classrooms:) Tj T* (        for i in range\(len\(room\)\):) Tj T* (            if room[i] is None:) Tj T* (                room[i] = student) Tj T* (                allocated = True) Tj T* (                break) Tj T* (        if allocated:) Tj T* (            break) Tj T*  T* (print\("Classroom Occupancy:"\)) Tj T* (for i, room in enumerate\(classrooms\):) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 595.2756 56.69291 re
+f*
+0.12 0.2 0.32 rg
+BT
+/F2-0 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 497.0175 819.2126 Tm
+(A\056jashwanti) Tj
+T*
+ET
+BT
+/F1-0 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 473.855 805.0394 Tm
+(Roll No\072 26000007) Tj
+T*
+ET
+BT
+1 0 0 1 519.2195 790.8661 Tm
+(CSE\0551) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Symbol
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 3309
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .909804 RG
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (Python Mini Projects | Topics 41\22650) Tj T* ET
+BT 1 0 0 1 518.9 28.34646 Tm (Page 3) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 664.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 118.8 Tm /F4 7.2 Tf 9 TL (    print\("Classroom", i + 1, ":", room\)) Tj T*  T* (all_students = []) Tj T* (for room in classrooms:) Tj T* (    for seat in room:) Tj T* (        if seat is not None and seat != "R":) Tj T* (            all_students.append\(seat\)) Tj T*  T* (duplicates = [s for s in set\(all_students\)) Tj T* (              if all_students.count\(s\) > 1]) Tj T* (vacant = sum\(room.count\(None\) for room in classrooms\)) Tj T*  T* (print\("Duplicate Students:", duplicates\)) Tj T* (print\("Vacant Seats:", vacant\)) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 643.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (8. Test Cases) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.77953 559.5354 cm
+q
+.862745 .901961 .945098 rg
+n 0 80 467.7165 -20 re f*
+.090196 .211765 .364706 rg
+BT /F2 8 Tf 12 TL ET
+BT 1 0 0 1 5 68 Tm (Test input) Tj T* ET
+BT 1 0 0 1 203.4252 68 Tm (Expected result) Tj T* ET
+0 0 0 rg
+BT /F1 8 Tf 12 TL ET
+BT 1 0 0 1 5 48 Tm (3 students) Tj T* ET
+BT 1 0 0 1 203.4252 48 Tm (Allocate 3 seats) Tj T* ET
+BT 1 0 0 1 5 28 Tm (Reserved seat) Tj T* ET
+BT 1 0 0 1 203.4252 28 Tm (Remains reserved) Tj T* ET
+BT 1 0 0 1 5 8 Tm (Repeated name) Tj T* ET
+BT 1 0 0 1 203.4252 8 Tm (Duplicate detected) Tj T* ET
+q
+1 J
+1 j
+.717647 .764706 .815686 RG
+.4 w
+n 0 80 m 467.7165 80 l S
+n 0 0 m 467.7165 0 l S
+n 0 0 m 0 80 l S
+n 467.7165 0 m 467.7165 80 l S
+n 0 60 m 467.7165 60 l S
+n 0 40 m 467.7165 40 l S
+n 0 20 m 467.7165 20 l S
+n 198.4252 0 m 198.4252 80 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 538.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (9. Sample Output) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 471.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 55.8 Tm /F4 7.2 Tf 9 TL (=============== RESTART: C:/Users/arjaj/Documents/hello world.py ===============) Tj T*  T* (Classroom Occupancy:) Tj T* (Classroom 1 : ['A', 'Teja', 'R', 'Ravi', 'B']) Tj T* (Classroom 2 : ['Priya', 'C', None, 'D', 'R']) Tj T* (Duplicate Students: []) Tj T* (Vacant Seats: 1) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 450.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (10. Output Screenshot Reference) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 424.5354 cm
+q
+.333333 .333333 .333333 rg
+BT 1 0 0 1 0 12 Tm /F1 8 Tf 10 TL (The block above is an IDLE-style expected-output representation, not a captured screenshot. Run the program in Python IDLE and use) Tj T* (Win + Shift + S to capture the actual Shell output for submission.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 403.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 373.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The nested list stores each classroom's seats. The program fills only None positions, leaves reserved seats unchanged,) Tj T* (checks repeated names and counts the remaining vacant seats.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 595.2756 56.69291 re
+f*
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 17 0 R
+/F2 8 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 4835
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .909804 RG
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (Python Mini Projects | Topics 41\22650) Tj T* ET
+BT 1 0 0 1 518.9 28.34646 Tm (Page 4) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 770.5354 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (42. Student Marks Matrix Analysis) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 748.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (1. Problem Statement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 718.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (To analyse student marks using a matrix and calculate totals, averages, top performers and subjects with low average) Tj T* (marks.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 697.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (2. Objectives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 679.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Store marks in a matrix.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 661.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Calculate student totals and averages.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 643.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Calculate subject averages.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 625.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Identify the top performer.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 607.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Detect subjects with low averages.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 586.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (3. Assumptions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 568.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 There are 3 students and 3 subjects.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 550.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Marks are out of 100; a subject average below 40 is considered low.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 529.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (4. Algorithm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 511.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. Create a marks matrix and student/subject names.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 493.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Calculate each student's total and average.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 475.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. Find the student with the highest total.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 457.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. Calculate each subject's average and identify averages below 40.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 439.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (5. Display the report.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 418.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (5. Flowchart) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 388.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Start ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Enter marks matrix ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Calculate student totals/averages ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Find top performer ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Calculate subject averages ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL T* (Check low averages ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Display report ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( End) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 367.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (6. Pseudocode) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 273.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 82.8 Tm /F4 7.2 Tf 9 TL (START) Tj T* (Create marks matrix) Tj T* (FOR each student) Tj T* (    Calculate total and average) Tj T* (FOR each subject) Tj T* (    Calculate subject average) Tj T* (Find highest-scoring student) Tj T* (Find subjects below 40 average) Tj T* (Display results) Tj T* (STOP) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 252.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (7. Python Source Code) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 68.53543 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 172.8 Tm /F4 7.2 Tf 9 TL (marks = [) Tj T* (    [85, 90, 78],) Tj T* (    [70, 65, 80],) Tj T* (    [95, 92, 96]) Tj T* (]) Tj T*  T* (names = ["Teja", "Ravi", "Priya"]) Tj T* (subjects = ["Python", "Maths", "English"]) Tj T*  T* (totals = []) Tj T* (for row in marks:) Tj T* (    totals.append\(sum\(row\)\)) Tj T*  T* (averages = [total / 3 for total in totals]) Tj T*  T* (for i in range\(3\):) Tj T* (    print\(names[i], "Total:", totals[i],) Tj T* (          "Average:", round\(averages[i], 2\)\)) Tj T*  T* (top = totals.index\(max\(totals\)\)) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 595.2756 56.69291 re
+f*
+Q
+
+
+endstream
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/Contents 19 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 20 0 R
+/F2 8 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+19 0 obj
+<<
+/Length 3123
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .909804 RG
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (Python Mini Projects | Topics 41\22650) Tj T* ET
+BT 1 0 0 1 518.9 28.34646 Tm (Page 5) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 727.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 55.8 Tm /F4 7.2 Tf 9 TL (print\("Top Performer:", names[top]\)) Tj T*  T* (for j in range\(3\):) Tj T* (    avg = sum\(marks[i][j] for i in range\(3\)\) / 3) Tj T* (    print\(subjects[j], "Average:", round\(avg, 2\)\)) Tj T* (    if avg < 40:) Tj T* (        print\("Low Performing Subject:", subjects[j]\)) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 706.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (8. Test Cases) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.77953 622.5354 cm
+q
+.862745 .901961 .945098 rg
+n 0 80 467.7165 -20 re f*
+.090196 .211765 .364706 rg
+BT /F2 8 Tf 12 TL ET
+BT 1 0 0 1 5 68 Tm (Test input) Tj T* ET
+BT 1 0 0 1 203.4252 68 Tm (Expected result) Tj T* ET
+0 0 0 rg
+BT /F1 8 Tf 12 TL ET
+BT 1 0 0 1 5 48 Tm (Teja: 85, 90, 78) Tj T* ET
+BT 1 0 0 1 203.4252 48 Tm (Total = 253) Tj T* ET
+BT 1 0 0 1 5 28 Tm (Priya: 95, 92, 96) Tj T* ET
+BT 1 0 0 1 203.4252 28 Tm (Top performer = Priya) Tj T* ET
+BT 1 0 0 1 5 8 Tm (Subject average below 40) Tj T* ET
+BT 1 0 0 1 203.4252 8 Tm (Low subject identified) Tj T* ET
+q
+1 J
+1 j
+.717647 .764706 .815686 RG
+.4 w
+n 0 80 m 467.7165 80 l S
+n 0 0 m 467.7165 0 l S
+n 0 0 m 0 80 l S
+n 467.7165 0 m 467.7165 80 l S
+n 0 60 m 467.7165 60 l S
+n 0 40 m 467.7165 40 l S
+n 0 20 m 467.7165 20 l S
+n 198.4252 0 m 198.4252 80 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 601.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (9. Sample Output) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 516.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 73.8 Tm /F4 7.2 Tf 9 TL (=============== RESTART: C:/Users/arjaj/Documents/hello world.py ===============) Tj T*  T* (Teja Total: 253 Average: 84.33) Tj T* (Ravi Total: 215 Average: 71.67) Tj T* (Priya Total: 283 Average: 94.33) Tj T* (Top Performer: Priya) Tj T* (Python Average: 83.33) Tj T* (Maths Average: 82.33) Tj T* (English Average: 84.67) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 495.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (10. Output Screenshot Reference) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 469.5354 cm
+q
+.333333 .333333 .333333 rg
+BT 1 0 0 1 0 12 Tm /F1 8 Tf 10 TL (The block above is an IDLE-style expected-output representation, not a captured screenshot. Run the program in Python IDLE and use) Tj T* (Win + Shift + S to capture the actual Shell output for submission.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 448.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 418.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Rows represent students and columns represent subjects. Row calculations give student totals and averages; column) Tj T* (calculations give subject averages.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 595.2756 56.69291 re
+f*
+Q
+
+
+endstream
+endobj
+20 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+21 0 obj
+<<
+/Contents 22 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 23 0 R
+/F2 8 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 5350
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .909804 RG
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (Python Mini Projects | Topics 41\22650) Tj T* ET
+BT 1 0 0 1 518.9 28.34646 Tm (Page 6) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 770.5354 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (43. Multi-Branch Sales Matrix Comparison) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 748.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (1. Problem Statement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 718.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (To store product sales across branches using nested lists, calculate product totals, compare branch sales and identify the) Tj T* (best-performing product in each branch.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 697.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (2. Objectives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 679.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Store sales data in a matrix.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 661.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Calculate product-wise totals.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 643.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Compare branch performance.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 625.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Identify the best-selling product in each branch.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 604.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (3. Assumptions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 586.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 There are 3 products and 3 branches.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 568.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Each matrix value represents sales of one product in one branch.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 547.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (4. Algorithm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 529.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. Create the sales matrix and product/branch names.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 511.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Calculate each product's total sales.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 493.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. Calculate each branch's total sales.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 475.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. Find the product with the highest sales in each branch.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 457.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (5. Display the comparison.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 436.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (5. Flowchart) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 406.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Start ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Create sales matrix ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Calculate product totals ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Calculate branch totals ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Find best product per branch ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL T* (Display comparison ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( End) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 385.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (6. Pseudocode) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 309.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 64.8 Tm /F4 7.2 Tf 9 TL (START) Tj T* (Create sales matrix) Tj T* (Calculate product totals) Tj T* (Calculate branch totals) Tj T* (FOR each branch) Tj T* (    Find highest-selling product) Tj T* (Display sales report) Tj T* (STOP) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 288.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (7. Python Source Code) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 131.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 145.8 Tm /F4 7.2 Tf 9 TL (sales = [) Tj T* (    [100, 150, 200],) Tj T* (    [250, 200, 180],) Tj T* (    [150, 300, 250]) Tj T* (]) Tj T*  T* (products = ["Laptop", "Mobile", "Tablet"]) Tj T* (branches = ["Branch A", "Branch B", "Branch C"]) Tj T*  T* (for i in range\(3\):) Tj T* (    print\(products[i], "Total:", sum\(sales[i]\)\)) Tj T*  T* (for j in range\(3\):) Tj T* (    total = sum\(sales[i][j] for i in range\(3\)\)) Tj T* (    best = max\(range\(3\), key=lambda i: sales[i][j]\)) Tj T* (    print\(branches[j], "Sales:", total\)) Tj T* (    print\("Best Product:", products[best]\)) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 110.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (8. Test Cases) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.77953 66.53543 cm
+q
+.862745 .901961 .945098 rg
+n 0 40 467.7165 -20 re f*
+.090196 .211765 .364706 rg
+BT /F2 8 Tf 12 TL ET
+BT 1 0 0 1 5 28 Tm (Test input) Tj T* ET
+BT 1 0 0 1 203.4252 28 Tm (Expected result) Tj T* ET
+0 0 0 rg
+BT /F1 8 Tf 12 TL ET
+BT 1 0 0 1 5 8 Tm (Laptop sales: 100, 150, 200) Tj T* ET
+BT 1 0 0 1 203.4252 8 Tm (Total = 450) Tj T* ET
+q
+1 J
+1 j
+.717647 .764706 .815686 RG
+.4 w
+n 0 40 m 467.7165 40 l S
+n 0 0 m 0 40 l S
+n 467.7165 0 m 467.7165 40 l S
+n 0 0 m 467.7165 0 l S
+n 0 20 m 467.7165 20 l S
+n 198.4252 0 m 198.4252 40 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 595.2756 56.69291 re
+f*
+Q
+
+
+endstream
+endobj
+23 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/Contents 25 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 26 0 R
+/F2 8 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+25 0 obj
+<<
+/Length 2536
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .909804 RG
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (Python Mini Projects | Topics 41\22650) Tj T* ET
+BT 1 0 0 1 518.9 28.34646 Tm (Page 7) Tj T* ET
+Q
+q
+1 0 0 1 63.77953 730.5354 cm
+q
+.862745 .901961 .945098 rg
+n 0 60 467.7165 -20 re f*
+.090196 .211765 .364706 rg
+BT /F2 8 Tf 12 TL ET
+BT 1 0 0 1 5 48 Tm (Test input) Tj T* ET
+BT 1 0 0 1 203.4252 48 Tm (Expected result) Tj T* ET
+0 0 0 rg
+BT /F1 8 Tf 12 TL ET
+BT 1 0 0 1 5 28 Tm (Branch B sales) Tj T* ET
+BT 1 0 0 1 203.4252 28 Tm (Total = 650) Tj T* ET
+BT 1 0 0 1 5 8 Tm (Branch A best product) Tj T* ET
+BT 1 0 0 1 203.4252 8 Tm (Mobile) Tj T* ET
+q
+1 J
+1 j
+.717647 .764706 .815686 RG
+.4 w
+n 0 60 m 467.7165 60 l S
+n 0 40 m 0 60 l S
+n 0 0 m 0 40 l S
+n 467.7165 40 m 467.7165 60 l S
+n 467.7165 0 m 467.7165 40 l S
+n 0 0 m 467.7165 0 l S
+n 0 40 m 467.7165 40 l S
+n 198.4252 40 m 198.4252 60 l S
+n 0 20 m 467.7165 20 l S
+n 198.4252 0 m 198.4252 40 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 709.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (9. Sample Output) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 606.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 91.8 Tm /F4 7.2 Tf 9 TL (=============== RESTART: C:/Users/arjaj/Documents/hello world.py ===============) Tj T*  T* (Laptop Total: 450) Tj T* (Mobile Total: 630) Tj T* (Tablet Total: 700) Tj T* (Branch A Sales: 500) Tj T* (Best Product: Mobile) Tj T* (Branch B Sales: 650) Tj T* (Best Product: Tablet) Tj T* (Branch C Sales: 630) Tj T* (Best Product: Tablet) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 585.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (10. Output Screenshot Reference) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 559.5354 cm
+q
+.333333 .333333 .333333 rg
+BT 1 0 0 1 0 12 Tm /F1 8 Tf 10 TL (The block above is an IDLE-style expected-output representation, not a captured screenshot. Run the program in Python IDLE and use) Tj T* (Win + Shift + S to capture the actual Shell output for submission.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 538.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 508.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Rows represent products and columns represent branches. The program adds each row for product totals and each) Tj T* (column for branch totals.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 595.2756 56.69291 re
+f*
+Q
+
+
+endstream
+endobj
+26 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/Contents 28 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 29 0 R
+/F2 8 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+28 0 obj
+<<
+/Length 4894
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .909804 RG
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (Python Mini Projects | Topics 41\22650) Tj T* ET
+BT 1 0 0 1 518.9 28.34646 Tm (Page 8) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 770.5354 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (44. Hospital Ward Occupancy Monitoring) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 748.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (1. Problem Statement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 718.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (To monitor hospital bed occupancy using nested lists, calculate utilization percentages, detect capacity violations and) Tj T* (identify peak occupancy.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 697.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (2. Objectives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 679.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Store daily ward occupancy.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 661.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Calculate utilization percentages.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 643.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Identify capacity violations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 625.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Find peak occupancy.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 604.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (3. Assumptions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 586.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 There are 3 wards with a capacity of 10 beds each.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 568.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Each row contains occupancy for 3 days.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 547.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (4. Algorithm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 529.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. Create an occupancy matrix and ward capacities.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 511.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Calculate total occupied beds for each ward.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 493.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. Calculate utilization as total occupancy divided by total available beds, multiplied by 100.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 475.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. Check whether any daily occupancy exceeds capacity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 457.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (5. Find the peak occupancy and display the report.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 436.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (5. Flowchart) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 406.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Start ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Enter occupancy matrix ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Read capacities ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Calculate utilization ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Check capacity violations ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Find peak) Tj T* (occupancy ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Display report ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( End) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 385.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (6. Pseudocode) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 291.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 82.8 Tm /F4 7.2 Tf 9 TL (START) Tj T* (Create occupancy matrix) Tj T* (Set ward capacities) Tj T* (FOR each ward) Tj T* (    Calculate total occupancy) Tj T* (    Calculate utilization percentage) Tj T* (    Check daily capacity violations) Tj T* (Find peak occupancy) Tj T* (Display report) Tj T* (STOP) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 270.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (7. Python Source Code) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 77.53543 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 181.8 Tm /F4 7.2 Tf 9 TL (occupancy = [) Tj T* (    [7, 8, 9],) Tj T* (    [5, 12, 8],) Tj T* (    [6, 7, 9]) Tj T* (]) Tj T*  T* (wards = ["General", "ICU", "Emergency"]) Tj T* (capacity = [10, 10, 10]) Tj T*  T* (for i in range\(3\):) Tj T* (    total = sum\(occupancy[i]\)) Tj T* (    percentage = \(total / \(capacity[i] * 3\)\) * 100) Tj T*  T* (    print\(wards[i], "Total Beds:", total\)) Tj T* (    print\("Utilization:", round\(percentage, 2\), "%"\)) Tj T*  T* (    if max\(occupancy[i]\) > capacity[i]:) Tj T* (        print\("Capacity Violation Detected"\)) Tj T*  T* (peak = max\(max\(row\) for row in occupancy\)) Tj T* (print\("Peak Occupancy:", peak\)) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 595.2756 56.69291 re
+f*
+Q
+
+
+endstream
+endobj
+29 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+30 0 obj
+<<
+/Contents 31 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 32 0 R
+/F2 8 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+31 0 obj
+<<
+/Length 2737
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .909804 RG
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (Python Mini Projects | Topics 41\22650) Tj T* ET
+BT 1 0 0 1 518.9 28.34646 Tm (Page 9) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 776.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (8. Test Cases) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.77953 692.5354 cm
+q
+.862745 .901961 .945098 rg
+n 0 80 467.7165 -20 re f*
+.090196 .211765 .364706 rg
+BT /F2 8 Tf 12 TL ET
+BT 1 0 0 1 5 68 Tm (Test input) Tj T* ET
+BT 1 0 0 1 203.4252 68 Tm (Expected result) Tj T* ET
+0 0 0 rg
+BT /F1 8 Tf 12 TL ET
+BT 1 0 0 1 5 48 Tm (General: 7, 8, 9) Tj T* ET
+BT 1 0 0 1 203.4252 48 Tm (Utilization = 80%) Tj T* ET
+BT 1 0 0 1 5 28 Tm (ICU: 5, 12, 8) Tj T* ET
+BT 1 0 0 1 203.4252 28 Tm (Capacity violation) Tj T* ET
+BT 1 0 0 1 5 8 Tm (All wards) Tj T* ET
+BT 1 0 0 1 203.4252 8 Tm (Peak occupancy = 12) Tj T* ET
+q
+1 J
+1 j
+.717647 .764706 .815686 RG
+.4 w
+n 0 80 m 467.7165 80 l S
+n 0 0 m 467.7165 0 l S
+n 0 0 m 0 80 l S
+n 467.7165 0 m 467.7165 80 l S
+n 0 60 m 467.7165 60 l S
+n 0 40 m 467.7165 40 l S
+n 0 20 m 467.7165 20 l S
+n 198.4252 0 m 198.4252 80 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 671.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (9. Sample Output) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 577.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 82.8 Tm /F4 7.2 Tf 9 TL (=============== RESTART: C:/Users/arjaj/Documents/hello world.py ===============) Tj T*  T* (General Total Beds: 24) Tj T* (Utilization: 80.0 %) Tj T* (ICU Total Beds: 25) Tj T* (Utilization: 83.33 %) Tj T* (Capacity Violation Detected) Tj T* (Emergency Total Beds: 22) Tj T* (Utilization: 73.33 %) Tj T* (Peak Occupancy: 12) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 556.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (10. Output Screenshot Reference) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 530.5354 cm
+q
+.333333 .333333 .333333 rg
+BT 1 0 0 1 0 12 Tm /F1 8 Tf 10 TL (The block above is an IDLE-style expected-output representation, not a captured screenshot. Run the program in Python IDLE and use) Tj T* (Win + Shift + S to capture the actual Shell output for submission.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 509.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 479.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Each row stores a ward's daily occupancy. Utilization is calculated against the ward's total bed capacity over all recorded) Tj T* (days. A daily value above capacity is flagged.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 595.2756 56.69291 re
+f*
+Q
+
+
+endstream
+endobj
+32 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+33 0 obj
+<<
+/Contents 34 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 35 0 R
+/F2 8 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+34 0 obj
+<<
+/Length 4686
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .909804 RG
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (Python Mini Projects | Topics 41\22650) Tj T* ET
+BT 1 0 0 1 514.452 28.34646 Tm (Page 10) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 770.5354 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (45. Weekly Electricity Consumption Matrix) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 748.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (1. Problem Statement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 718.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (To analyse appliance-wise electricity consumption for seven days, calculate daily and appliance totals and identify) Tj T* (consumption exceeding a specified limit.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 697.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (2. Objectives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 679.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Store weekly electricity readings.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 661.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Calculate appliance-wise totals.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 643.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Calculate daily totals.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 625.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Identify high consumption.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 604.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (3. Assumptions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 586.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 There are 3 appliances and 7 days.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 568.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The daily consumption limit is 15 units.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 547.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (4. Algorithm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 529.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. Create the weekly consumption matrix.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 511.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Calculate the total for each appliance.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 493.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. Calculate the total for each day.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 475.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. Compare each daily total with 15 units.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 457.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (5. Display warnings and totals.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 436.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (5. Flowchart) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 406.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Start ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Enter weekly readings ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Calculate appliance totals ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Calculate daily totals ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Compare with limit ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Display) Tj T* (warnings/report ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( End) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 385.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (6. Pseudocode) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 300.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 73.8 Tm /F4 7.2 Tf 9 TL (START) Tj T* (Create consumption matrix) Tj T* (Calculate appliance totals) Tj T* (FOR each day) Tj T* (    Calculate daily consumption) Tj T* (    IF consumption > limit) Tj T* (        Display warning) Tj T* (Display weekly totals) Tj T* (STOP) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 279.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (7. Python Source Code) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 122.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 145.8 Tm /F4 7.2 Tf 9 TL (usage = [) Tj T* (    [2, 3, 2, 4, 3, 2, 3],) Tj T* (    [4, 4, 5, 4, 5, 4, 4],) Tj T* (    [3, 3, 4, 3, 4, 3, 3]) Tj T* (]) Tj T*  T* (appliances = ["Fan", "AC", "Light"]) Tj T*  T* (for i in range\(3\):) Tj T* (    print\(appliances[i], "Total:", sum\(usage[i]\)\)) Tj T*  T* (for j in range\(7\):) Tj T* (    daily = sum\(usage[i][j] for i in range\(3\)\)) Tj T* (    print\("Day", j + 1, ":", daily, "units"\)) Tj T*  T* (    if daily > 15:) Tj T* (        print\("High Consumption Alert"\)) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 101.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (8. Test Cases) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 595.2756 56.69291 re
+f*
+Q
+
+
+endstream
+endobj
+35 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+36 0 obj
+<<
+/Contents 37 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 38 0 R
+/F2 8 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+37 0 obj
+<<
+/Length 2657
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .909804 RG
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (Python Mini Projects | Topics 41\22650) Tj T* ET
+BT 1 0 0 1 514.452 28.34646 Tm (Page 11) Tj T* ET
+Q
+q
+1 0 0 1 63.77953 710.5354 cm
+q
+.862745 .901961 .945098 rg
+n 0 80 467.7165 -20 re f*
+.090196 .211765 .364706 rg
+BT /F2 8 Tf 12 TL ET
+BT 1 0 0 1 5 68 Tm (Test input) Tj T* ET
+BT 1 0 0 1 203.4252 68 Tm (Expected result) Tj T* ET
+0 0 0 rg
+BT /F1 8 Tf 12 TL ET
+BT 1 0 0 1 5 48 Tm (Fan readings) Tj T* ET
+BT 1 0 0 1 203.4252 48 Tm (Total = 19 units) Tj T* ET
+BT 1 0 0 1 5 28 Tm (Day 1 readings: 2, 4, 3) Tj T* ET
+BT 1 0 0 1 203.4252 28 Tm (Total = 9 units) Tj T* ET
+BT 1 0 0 1 5 8 Tm (Daily total above 15) Tj T* ET
+BT 1 0 0 1 203.4252 8 Tm (High consumption alert) Tj T* ET
+q
+1 J
+1 j
+.717647 .764706 .815686 RG
+.4 w
+n 0 80 m 467.7165 80 l S
+n 0 0 m 467.7165 0 l S
+n 0 0 m 0 80 l S
+n 467.7165 0 m 467.7165 80 l S
+n 0 60 m 467.7165 60 l S
+n 0 40 m 467.7165 40 l S
+n 0 20 m 467.7165 20 l S
+n 198.4252 0 m 198.4252 80 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 689.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (9. Sample Output) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 577.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 100.8 Tm /F4 7.2 Tf 9 TL (=============== RESTART: C:/Users/arjaj/Documents/hello world.py ===============) Tj T*  T* (Fan Total: 19) Tj T* (AC Total: 30) Tj T* (Light Total: 23) Tj T* (Day 1 : 9 units) Tj T* (Day 2 : 10 units) Tj T* (Day 3 : 11 units) Tj T* (Day 4 : 11 units) Tj T* (Day 5 : 12 units) Tj T* (Day 6 : 9 units) Tj T* (Day 7 : 10 units) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 556.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (10. Output Screenshot Reference) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 530.5354 cm
+q
+.333333 .333333 .333333 rg
+BT 1 0 0 1 0 12 Tm /F1 8 Tf 10 TL (The block above is an IDLE-style expected-output representation, not a captured screenshot. Run the program in Python IDLE and use) Tj T* (Win + Shift + S to capture the actual Shell output for submission.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 509.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 479.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Rows represent appliances and columns represent days. The program calculates row totals and column totals. The) Tj T* (supplied sample data does not exceed the 15-unit daily limit, so no alert appears.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 595.2756 56.69291 re
+f*
+Q
+
+
+endstream
+endobj
+38 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+39 0 obj
+<<
+/Contents 40 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 41 0 R
+/F2 8 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+40 0 obj
+<<
+/Length 4829
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .909804 RG
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (Python Mini Projects | Topics 41\22650) Tj T* ET
+BT 1 0 0 1 514.452 28.34646 Tm (Page 12) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 770.5354 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (46. Inventory Matrix Reconciliation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 748.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (1. Problem Statement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 718.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (To compare product quantities across warehouses using nested lists, identify shortages and surpluses and calculate the) Tj T* (difference from target stock.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 697.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (2. Objectives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 679.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Store warehouse inventory.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 661.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Compare actual and target stock.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 643.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Identify shortages and surpluses.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 625.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Calculate stock differences.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 604.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (3. Assumptions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 586.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 There are 2 warehouses and 3 products.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 568.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The target stock is 20 units for each product in each warehouse.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 547.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (4. Algorithm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 529.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. Create the inventory matrix and product names.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 511.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Set the target stock quantity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 493.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. Compare each actual quantity with the target.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 475.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. Report shortage, surplus or balanced stock.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 457.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (5. Display the inventory report.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 436.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (5. Flowchart) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 406.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Start ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Enter inventory matrix ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Set target stock ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Compare actual and target ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Calculate shortage/surplus ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Display) Tj T* (report ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( End) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 385.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (6. Pseudocode) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 300.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 73.8 Tm /F4 7.2 Tf 9 TL (START) Tj T* (Create inventory matrix) Tj T* (Set target stock) Tj T* (FOR each warehouse) Tj T* (    FOR each product) Tj T* (        Compare actual and target) Tj T* (        Calculate shortage or surplus) Tj T* (Display inventory report) Tj T* (STOP) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 279.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (7. Python Source Code) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 95.53543 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 172.8 Tm /F4 7.2 Tf 9 TL (inventory = [) Tj T* (    [25, 15, 30],) Tj T* (    [10, 25, 18]) Tj T* (]) Tj T*  T* (products = ["Laptop", "Mouse", "Keyboard"]) Tj T* (target = 20) Tj T*  T* (for i in range\(2\):) Tj T* (    print\("Warehouse", i + 1\)) Tj T*  T* (    for j in range\(3\):) Tj T* (        difference = inventory[i][j] - target) Tj T*  T* (        if difference < 0:) Tj T* (            print\(products[j], "Shortage:", -difference\)) Tj T* (        elif difference > 0:) Tj T* (            print\(products[j], "Surplus:", difference\)) Tj T* (        else:) Tj T* (            print\(products[j], "Stock Balanced"\)) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 74.53543 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (8. Test Cases) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 595.2756 56.69291 re
+f*
+Q
+
+
+endstream
+endobj
+41 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+42 0 obj
+<<
+/Contents 43 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 44 0 R
+/F2 8 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+43 0 obj
+<<
+/Length 2651
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .909804 RG
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (Python Mini Projects | Topics 41\22650) Tj T* ET
+BT 1 0 0 1 514.452 28.34646 Tm (Page 13) Tj T* ET
+Q
+q
+1 0 0 1 63.77953 710.5354 cm
+q
+.862745 .901961 .945098 rg
+n 0 80 467.7165 -20 re f*
+.090196 .211765 .364706 rg
+BT /F2 8 Tf 12 TL ET
+BT 1 0 0 1 5 68 Tm (Test input) Tj T* ET
+BT 1 0 0 1 203.4252 68 Tm (Expected result) Tj T* ET
+0 0 0 rg
+BT /F1 8 Tf 12 TL ET
+BT 1 0 0 1 5 48 Tm (Actual stock 25, target 20) Tj T* ET
+BT 1 0 0 1 203.4252 48 Tm (Surplus = 5) Tj T* ET
+BT 1 0 0 1 5 28 Tm (Actual stock 15, target 20) Tj T* ET
+BT 1 0 0 1 203.4252 28 Tm (Shortage = 5) Tj T* ET
+BT 1 0 0 1 5 8 Tm (Actual stock 20, target 20) Tj T* ET
+BT 1 0 0 1 203.4252 8 Tm (Balanced) Tj T* ET
+q
+1 J
+1 j
+.717647 .764706 .815686 RG
+.4 w
+n 0 80 m 467.7165 80 l S
+n 0 0 m 467.7165 0 l S
+n 0 0 m 0 80 l S
+n 467.7165 0 m 467.7165 80 l S
+n 0 60 m 467.7165 60 l S
+n 0 40 m 467.7165 40 l S
+n 0 20 m 467.7165 20 l S
+n 198.4252 0 m 198.4252 80 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 689.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (9. Sample Output) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 595.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 82.8 Tm /F4 7.2 Tf 9 TL (=============== RESTART: C:/Users/arjaj/Documents/hello world.py ===============) Tj T*  T* (Warehouse 1) Tj T* (Laptop Surplus: 5) Tj T* (Mouse Shortage: 5) Tj T* (Keyboard Surplus: 10) Tj T* (Warehouse 2) Tj T* (Laptop Shortage: 10) Tj T* (Mouse Surplus: 5) Tj T* (Keyboard Shortage: 2) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 574.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (10. Output Screenshot Reference) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 548.5354 cm
+q
+.333333 .333333 .333333 rg
+BT 1 0 0 1 0 12 Tm /F1 8 Tf 10 TL (The block above is an IDLE-style expected-output representation, not a captured screenshot. Run the program in Python IDLE and use) Tj T* (Win + Shift + S to capture the actual Shell output for submission.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 527.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 497.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The program compares every product quantity with the target of 20. A positive difference is a surplus and a negative) Tj T* (difference is a shortage. This basic version reports differences; it does not automatically transfer stock.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 595.2756 56.69291 re
+f*
+Q
+
+
+endstream
+endobj
+44 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+45 0 obj
+<<
+/Contents 46 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 47 0 R
+/F2 8 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+46 0 obj
+<<
+/Length 4737
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .909804 RG
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (Python Mini Projects | Topics 41\22650) Tj T* ET
+BT 1 0 0 1 514.452 28.34646 Tm (Page 14) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 770.5354 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (47. Sports Tournament Ranking System) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 748.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (1. Problem Statement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 718.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (To manage sports tournament results, calculate team points, apply score-difference tie-break rules and prepare team) Tj T* (rankings.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 697.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (2. Objectives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 679.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Store match results.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 661.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Calculate team points.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 643.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Calculate score differences.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 625.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Prepare final rankings.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 604.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (3. Assumptions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 586.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Three teams participate.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 568.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Win = 3 points, draw = 1 point and loss = 0 points.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 550.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Score difference is the tie-breaker after points.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 529.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (4. Algorithm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 511.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. Create team records for points and score difference.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 493.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Enter match results.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 475.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. Award points based on each result.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 457.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. Update score differences.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 439.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (5. Sort teams by points and score difference in descending order.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 421.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (6. Display rankings.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 400.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (5. Flowchart) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 382.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Start ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Enter match results ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Award points ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Calculate score difference ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Sort teams ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Display rankings ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( End) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 361.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (6. Pseudocode) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 276.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 73.8 Tm /F4 7.2 Tf 9 TL (START) Tj T* (Create team records) Tj T* (FOR each match) Tj T* (    Compare scores) Tj T* (    Award points) Tj T* (    Update score difference) Tj T* (Sort by points and score difference) Tj T* (Display rankings) Tj T* (STOP) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 255.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (7. Python Source Code) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 71.53543 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 172.8 Tm /F4 7.2 Tf 9 TL (teams = {) Tj T* (    "India": [0, 0],) Tj T* (    "Australia": [0, 0],) Tj T* (    "England": [0, 0]) Tj T* (}) Tj T*  T* (matches = [) Tj T* (    \("India", "Australia", 3, 1\),) Tj T* (    \("England", "India", 2, 2\),) Tj T* (    \("Australia", "England", 4, 2\)) Tj T* (]) Tj T*  T* (for a, b, sa, sb in matches:) Tj T* (    teams[a][1] += sa - sb) Tj T* (    teams[b][1] += sb - sa) Tj T*  T* (    if sa > sb:) Tj T* (        teams[a][0] += 3) Tj T* (    elif sb > sa:) Tj T* (        teams[b][0] += 3) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 595.2756 56.69291 re
+f*
+Q
+
+
+endstream
+endobj
+47 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+48 0 obj
+<<
+/Contents 49 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 50 0 R
+/F2 8 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+49 0 obj
+<<
+/Length 3198
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .909804 RG
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (Python Mini Projects | Topics 41\22650) Tj T* ET
+BT 1 0 0 1 514.452 28.34646 Tm (Page 15) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 664.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 118.8 Tm /F4 7.2 Tf 9 TL (    else:) Tj T* (        teams[a][0] += 1) Tj T* (        teams[b][0] += 1) Tj T*  T* (ranking = sorted\() Tj T* (    teams.items\(\),) Tj T* (    key=lambda x: \(x[1][0], x[1][1]\),) Tj T* (    reverse=True) Tj T* (\)) Tj T*  T* (print\("Tournament Rankings:"\)) Tj T* (for i, \(name, values\) in enumerate\(ranking, 1\):) Tj T* (    print\(i, name, "Points:", values[0],) Tj T* (          "Difference:", values[1]\)) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 643.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (8. Test Cases) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.77953 559.5354 cm
+q
+.862745 .901961 .945098 rg
+n 0 80 467.7165 -20 re f*
+.090196 .211765 .364706 rg
+BT /F2 8 Tf 12 TL ET
+BT 1 0 0 1 5 68 Tm (Test input) Tj T* ET
+BT 1 0 0 1 203.4252 68 Tm (Expected result) Tj T* ET
+0 0 0 rg
+BT /F1 8 Tf 12 TL ET
+BT 1 0 0 1 5 48 Tm (India 3\2261 Australia) Tj T* ET
+BT 1 0 0 1 203.4252 48 Tm (India wins; 3 points) Tj T* ET
+BT 1 0 0 1 5 28 Tm (England 2\2262 India) Tj T* ET
+BT 1 0 0 1 203.4252 28 Tm (Both receive 1 point) Tj T* ET
+BT 1 0 0 1 5 8 Tm (Australia 4\2262 England) Tj T* ET
+BT 1 0 0 1 203.4252 8 Tm (Australia wins; 3 points) Tj T* ET
+q
+1 J
+1 j
+.717647 .764706 .815686 RG
+.4 w
+n 0 80 m 467.7165 80 l S
+n 0 0 m 467.7165 0 l S
+n 0 0 m 0 80 l S
+n 467.7165 0 m 467.7165 80 l S
+n 0 60 m 467.7165 60 l S
+n 0 40 m 467.7165 40 l S
+n 0 20 m 467.7165 20 l S
+n 198.4252 0 m 198.4252 80 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 538.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (9. Sample Output) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 480.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 46.8 Tm /F4 7.2 Tf 9 TL (=============== RESTART: C:/Users/arjaj/Documents/hello world.py ===============) Tj T*  T* (Tournament Rankings:) Tj T* (1 India Points: 4 Difference: 2) Tj T* (2 Australia Points: 3 Difference: 0) Tj T* (3 England Points: 1 Difference: -2) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 459.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (10. Output Screenshot Reference) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 433.5354 cm
+q
+.333333 .333333 .333333 rg
+BT 1 0 0 1 0 12 Tm /F1 8 Tf 10 TL (The block above is an IDLE-style expected-output representation, not a captured screenshot. Run the program in Python IDLE and use) Tj T* (Win + Shift + S to capture the actual Shell output for submission.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 412.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 382.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The program awards points after each match and updates each team's score difference. Teams are ranked by points first) Tj T* (and score difference second.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 595.2756 56.69291 re
+f*
+Q
+
+
+endstream
+endobj
+50 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+51 0 obj
+<<
+/Contents 52 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 53 0 R
+/F2 8 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+52 0 obj
+<<
+/Length 4898
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .909804 RG
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (Python Mini Projects | Topics 41\22650) Tj T* ET
+BT 1 0 0 1 514.452 28.34646 Tm (Page 16) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 770.5354 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (48. Tuple-Based Employee Shift Conflict Detection) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 748.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (1. Problem Statement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 718.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (To store employee shift schedules using tuples, compare time intervals and identify overlapping shifts assigned to the) Tj T* (same employee.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 697.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (2. Objectives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 679.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Store employee shift details.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 661.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Compare shift timings.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 643.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Detect overlapping shifts.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 625.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Display conflicting schedules.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 604.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (3. Assumptions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 586.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Each tuple contains employee name, start time and end time.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 568.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Times use the 24-hour clock as whole numbers.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 550.5354 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Shifts overlap when start1 < end2 and start2 < end1 for the same employee.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 529.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (4. Algorithm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 511.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. Create shift tuples.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 493.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Compare every pair of shifts.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 475.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. Check whether the employee names match.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 457.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. Check whether the time intervals overlap.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 439.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (5. Display any conflicts.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 418.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (5. Flowchart) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 400.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Start ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Create shift tuples ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Compare pairs ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Same employee? ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Check time overlap ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Report conflict ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( End) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 379.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (6. Pseudocode) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 312.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 55.8 Tm /F4 7.2 Tf 9 TL (START) Tj T* (Create employee shift tuples) Tj T* (FOR each pair of shifts) Tj T* (    IF employee names are the same) Tj T* (        IF start1 < end2 AND start2 < end1) Tj T* (            Display conflict) Tj T* (STOP) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 291.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (7. Python Source Code) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 80.53543 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 199.8 Tm /F4 7.2 Tf 9 TL (shifts = [) Tj T* (    \("Ravi", 9, 13\),) Tj T* (    \("Teja", 10, 14\),) Tj T* (    \("Ravi", 12, 16\),) Tj T* (    \("Priya", 14, 18\)) Tj T* (]) Tj T*  T* (found = False) Tj T*  T* (for i in range\(len\(shifts\)\):) Tj T* (    for j in range\(i + 1, len\(shifts\)\):) Tj T* (        name1, start1, end1 = shifts[i]) Tj T* (        name2, start2, end2 = shifts[j]) Tj T*  T* (        if name1 == name2:) Tj T* (            if start1 < end2 and start2 < end1:) Tj T* (                print\("Conflict:", name1\)) Tj T* (                print\("Shift 1:", start1, "-", end1\)) Tj T* (                print\("Shift 2:", start2, "-", end2\)) Tj T* (                found = True) Tj T*  T* (if not found:) Tj T* (    print\("No Conflicts Found"\)) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 595.2756 56.69291 re
+f*
+Q
+
+
+endstream
+endobj
+53 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+54 0 obj
+<<
+/Contents 55 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 56 0 R
+/F2 8 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+55 0 obj
+<<
+/Length 2596
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .909804 RG
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (Python Mini Projects | Topics 41\22650) Tj T* ET
+BT 1 0 0 1 514.452 28.34646 Tm (Page 17) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 776.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (8. Test Cases) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.77953 692.5354 cm
+q
+.862745 .901961 .945098 rg
+n 0 80 467.7165 -20 re f*
+.090196 .211765 .364706 rg
+BT /F2 8 Tf 12 TL ET
+BT 1 0 0 1 5 68 Tm (Test input) Tj T* ET
+BT 1 0 0 1 203.4252 68 Tm (Expected result) Tj T* ET
+0 0 0 rg
+BT /F1 8 Tf 12 TL ET
+BT 1 0 0 1 5 48 Tm (Ravi: 9\22613 and 12\22616) Tj T* ET
+BT 1 0 0 1 203.4252 48 Tm (Conflict detected) Tj T* ET
+BT 1 0 0 1 5 28 Tm (Teja: one shift only) Tj T* ET
+BT 1 0 0 1 203.4252 28 Tm (No conflict) Tj T* ET
+BT 1 0 0 1 5 8 Tm (Different employees with overlapping times) Tj T* ET
+BT 1 0 0 1 203.4252 8 Tm (No same-employee conflict) Tj T* ET
+q
+1 J
+1 j
+.717647 .764706 .815686 RG
+.4 w
+n 0 80 m 467.7165 80 l S
+n 0 0 m 467.7165 0 l S
+n 0 0 m 0 80 l S
+n 467.7165 0 m 467.7165 80 l S
+n 0 60 m 467.7165 60 l S
+n 0 40 m 467.7165 40 l S
+n 0 20 m 467.7165 20 l S
+n 198.4252 0 m 198.4252 80 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 671.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (9. Sample Output) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 622.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 37.8 Tm /F4 7.2 Tf 9 TL (=============== RESTART: C:/Users/arjaj/Documents/hello world.py ===============) Tj T*  T* (Conflict: Ravi) Tj T* (Shift 1: 9 - 13) Tj T* (Shift 2: 12 - 16) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 601.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (10. Output Screenshot Reference) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 575.5354 cm
+q
+.333333 .333333 .333333 rg
+BT 1 0 0 1 0 12 Tm /F1 8 Tf 10 TL (The block above is an IDLE-style expected-output representation, not a captured screenshot. Run the program in Python IDLE and use) Tj T* (Win + Shift + S to capture the actual Shell output for submission.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 554.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 524.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Each shift is stored as a tuple. The program compares pairs only when the employee names match, then checks whether) Tj T* (their time intervals overlap.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 595.2756 56.69291 re
+f*
+Q
+
+
+endstream
+endobj
+56 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+57 0 obj
+<<
+/Contents 58 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 59 0 R
+/F2 8 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+58 0 obj
+<<
+/Length 4845
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .909804 RG
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (Python Mini Projects | Topics 41\22650) Tj T* ET
+BT 1 0 0 1 514.452 28.34646 Tm (Page 18) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 770.5354 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (49. Tuple-Based Product Catalogue Audit) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 748.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (1. Problem Statement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 718.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (To maintain product catalogue records using tuples, identify invalid records, calculate inventory values and find products) Tj T* (requiring replenishment.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 697.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (2. Objectives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 679.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Store product details using tuples.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 661.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Identify invalid prices and quantities.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 643.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Calculate inventory value.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 625.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Identify low-stock products.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 604.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (3. Assumptions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 586.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Each tuple contains product ID, price and stock quantity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 568.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Price must be greater than zero; stock must be zero or greater.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 550.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Replenishment is required when stock is below 10 units.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 529.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (4. Algorithm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 511.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. Create product tuples.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 493.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Read each product record.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 475.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. Validate price and stock.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 457.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. Calculate inventory value for valid records.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 439.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (5. Identify products with stock below 10.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 421.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (6. Display the report.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 400.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (5. Flowchart) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 382.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Start ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Create product tuples ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Validate record ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Calculate inventory value ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Check low stock ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Display report ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( End) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 361.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (6. Pseudocode) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 258.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 91.8 Tm /F4 7.2 Tf 9 TL (START) Tj T* (Create product tuples) Tj T* (FOR each product) Tj T* (    Check price and stock) Tj T* (    IF invalid) Tj T* (        Display invalid record) Tj T* (    ELSE) Tj T* (        Calculate inventory value) Tj T* (        Check replenishment level) Tj T* (Display results) Tj T* (STOP) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 237.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (7. Python Source Code) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 71.53543 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 154.8 Tm /F4 7.2 Tf 9 TL (products = [) Tj T* (    \("P101", 500, 20\),) Tj T* (    \("P102", 300, 5\),) Tj T* (    \("P103", -100, 10\),) Tj T* (    \("P104", 700, 0\)) Tj T* (]) Tj T*  T* (total_value = 0) Tj T*  T* (for pid, price, stock in products:) Tj T* (    if price <= 0 or stock < 0:) Tj T* (        print\(pid, "Invalid Record"\)) Tj T* (        continue) Tj T*  T* (    value = price * stock) Tj T* (    total_value += value) Tj T*  T* (    print\(pid, "Inventory Value:", value\)) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 595.2756 56.69291 re
+f*
+Q
+
+
+endstream
+endobj
+59 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+60 0 obj
+<<
+/Contents 61 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 62 0 R
+/F2 8 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+61 0 obj
+<<
+/Length 3003
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .909804 RG
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (Python Mini Projects | Topics 41\22650) Tj T* ET
+BT 1 0 0 1 514.452 28.34646 Tm (Page 19) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 754.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 28.8 Tm /F4 7.2 Tf 9 TL (    if stock < 10:) Tj T* (        print\("Replenishment Required"\)) Tj T*  T* (print\("Total Inventory Value:", total_value\)) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 733.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (8. Test Cases) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.77953 649.5354 cm
+q
+.862745 .901961 .945098 rg
+n 0 80 467.7165 -20 re f*
+.090196 .211765 .364706 rg
+BT /F2 8 Tf 12 TL ET
+BT 1 0 0 1 5 68 Tm (Test input) Tj T* ET
+BT 1 0 0 1 203.4252 68 Tm (Expected result) Tj T* ET
+0 0 0 rg
+BT /F1 8 Tf 12 TL ET
+BT 1 0 0 1 5 48 Tm (Price 500, stock 20) Tj T* ET
+BT 1 0 0 1 203.4252 48 Tm (Inventory value = 10000) Tj T* ET
+BT 1 0 0 1 5 28 Tm (Price -100) Tj T* ET
+BT 1 0 0 1 203.4252 28 Tm (Invalid record) Tj T* ET
+BT 1 0 0 1 5 8 Tm (Stock 5) Tj T* ET
+BT 1 0 0 1 203.4252 8 Tm (Replenishment required) Tj T* ET
+q
+1 J
+1 j
+.717647 .764706 .815686 RG
+.4 w
+n 0 80 m 467.7165 80 l S
+n 0 0 m 467.7165 0 l S
+n 0 0 m 0 80 l S
+n 467.7165 0 m 467.7165 80 l S
+n 0 60 m 467.7165 60 l S
+n 0 40 m 467.7165 40 l S
+n 0 20 m 467.7165 20 l S
+n 198.4252 0 m 198.4252 80 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 628.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (9. Sample Output) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 543.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 73.8 Tm /F4 7.2 Tf 9 TL (=============== RESTART: C:/Users/arjaj/Documents/hello world.py ===============) Tj T*  T* (P101 Inventory Value: 10000) Tj T* (P102 Inventory Value: 1500) Tj T* (Replenishment Required) Tj T* (P103 Invalid Record) Tj T* (P104 Inventory Value: 0) Tj T* (Replenishment Required) Tj T* (Total Inventory Value: 11500) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 522.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (10. Output Screenshot Reference) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 496.5354 cm
+q
+.333333 .333333 .333333 rg
+BT 1 0 0 1 0 12 Tm /F1 8 Tf 10 TL (The block above is an IDLE-style expected-output representation, not a captured screenshot. Run the program in Python IDLE and use) Tj T* (Win + Shift + S to capture the actual Shell output for submission.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 475.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 445.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.121861 Tw (Each product tuple stores its ID, price and quantity. Valid records contribute price multiplied by stock to the inventory value.) Tj T* 0 Tw (Records with invalid price or negative stock are skipped.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 595.2756 56.69291 re
+f*
+Q
+
+
+endstream
+endobj
+62 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+63 0 obj
+<<
+/Contents 64 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 65 0 R
+/F2 8 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+64 0 obj
+<<
+/Length 4818
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .909804 RG
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (Python Mini Projects | Topics 41\22650) Tj T* ET
+BT 1 0 0 1 514.452 28.34646 Tm (Page 20) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 770.5354 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (50. Tuple-Based Route Distance Analysis) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 748.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (1. Problem Statement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 718.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (To store geographical coordinates using tuples, calculate distances between successive locations using the Euclidean) Tj T* (distance formula and identify the longest route segment.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 697.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (2. Objectives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 679.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Store geographical coordinates.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 661.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Calculate distances between successive locations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 643.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Identify the longest route segment.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 625.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Calculate total route distance.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 604.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (3. Assumptions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 586.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Coordinates are represented as \(x, y\) tuples.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 568.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The Euclidean distance formula is used.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 550.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Coordinates are measured in kilometres on a simplified plane.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 529.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (4. Algorithm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 511.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. Create coordinate tuples.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 493.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Select each pair of successive locations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 475.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. Calculate distance using the Euclidean formula.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 457.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. Add each distance to the total.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 439.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (5. Find the longest segment and display results.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 418.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (5. Flowchart) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 388.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Start ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Enter coordinate tuples ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Select successive points ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Calculate distance ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Add to total ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Find longest segment) Tj T* /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( Display results ) Tj /F3 9 Tf 12 TL (\256) Tj /F1 9 Tf 12 TL ( End) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 367.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (6. Pseudocode) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 273.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 82.8 Tm /F4 7.2 Tf 9 TL (START) Tj T* (Create coordinate tuples) Tj T* (Set total distance = 0) Tj T* (FOR each successive point pair) Tj T* (    Calculate Euclidean distance) Tj T* (    Add distance to total) Tj T* (    Compare with longest distance) Tj T* (Display total distance) Tj T* (Display longest segment) Tj T* (STOP) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 252.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (7. Python Source Code) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 68.53543 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 172.8 Tm /F4 7.2 Tf 9 TL (import math) Tj T*  T* (routes = [) Tj T* (    \(0, 0\),) Tj T* (    \(3, 4\),) Tj T* (    \(6, 8\),) Tj T* (    \(12, 8\)) Tj T* (]) Tj T*  T* (distances = []) Tj T*  T* (for i in range\(len\(routes\) - 1\):) Tj T* (    x1, y1 = routes[i]) Tj T* (    x2, y2 = routes[i + 1]) Tj T*  T* (    distance = math.sqrt\() Tj T* (        \(x2 - x1\)**2 + \(y2 - y1\)**2) Tj T* (    \)) Tj T*  T* (    distances.append\(distance\)) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 595.2756 56.69291 re
+f*
+Q
+
+
+endstream
+endobj
+65 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+66 0 obj
+<<
+/Contents 67 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 68 0 R
+/F2 8 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+67 0 obj
+<<
+/Length 3139
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .909804 RG
+n 51.02362 42.51969 m 544.252 42.51969 l S
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (Python Mini Projects | Topics 41\22650) Tj T* ET
+BT 1 0 0 1 514.452 28.34646 Tm (Page 21) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 700.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 82.8 Tm /F4 7.2 Tf 9 TL (    print\("Segment", i + 1, "Distance:",) Tj T* (          round\(distance, 2\), "km"\)) Tj T*  T* (print\("Total Distance:", round\(sum\(distances\), 2\), "km"\)) Tj T*  T* (longest = max\(distances\)) Tj T* (index = distances.index\(longest\) + 1) Tj T*  T* (print\("Longest Segment:", index\)) Tj T* (print\("Longest Distance:", round\(longest, 2\), "km"\)) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 679.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (8. Test Cases) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.77953 595.5354 cm
+q
+.862745 .901961 .945098 rg
+n 0 80 467.7165 -20 re f*
+.090196 .211765 .364706 rg
+BT /F2 8 Tf 12 TL ET
+BT 1 0 0 1 5 68 Tm (Test input) Tj T* ET
+BT 1 0 0 1 203.4252 68 Tm (Expected result) Tj T* ET
+0 0 0 rg
+BT /F1 8 Tf 12 TL ET
+BT 1 0 0 1 5 48 Tm (\(0,0\) to \(3,4\)) Tj T* ET
+BT 1 0 0 1 203.4252 48 Tm (5 km) Tj T* ET
+BT 1 0 0 1 5 28 Tm (\(3,4\) to \(6,8\)) Tj T* ET
+BT 1 0 0 1 203.4252 28 Tm (5 km) Tj T* ET
+BT 1 0 0 1 5 8 Tm (\(6,8\) to \(12,8\)) Tj T* ET
+BT 1 0 0 1 203.4252 8 Tm (6 km) Tj T* ET
+q
+1 J
+1 j
+.717647 .764706 .815686 RG
+.4 w
+n 0 80 m 467.7165 80 l S
+n 0 0 m 467.7165 0 l S
+n 0 0 m 0 80 l S
+n 467.7165 0 m 467.7165 80 l S
+n 0 60 m 467.7165 60 l S
+n 0 40 m 467.7165 40 l S
+n 0 20 m 467.7165 20 l S
+n 198.4252 0 m 198.4252 80 l S
+Q
+Q
+Q
+q
+1 0 0 1 54.18898 574.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (9. Sample Output) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 498.5354 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 64.8 Tm /F4 7.2 Tf 9 TL (=============== RESTART: C:/Users/arjaj/Documents/hello world.py ===============) Tj T*  T* (Segment 1 Distance: 5.0 km) Tj T* (Segment 2 Distance: 5.0 km) Tj T* (Segment 3 Distance: 6.0 km) Tj T* (Total Distance: 16.0 km) Tj T* (Longest Segment: 3) Tj T* (Longest Distance: 6.0 km) Tj T* ET
+Q
+q
+1 0 0 1 54.18898 477.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (10. Output Screenshot Reference) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 451.5354 cm
+q
+.333333 .333333 .333333 rg
+BT 1 0 0 1 0 12 Tm /F1 8 Tf 10 TL (The block above is an IDLE-style expected-output representation, not a captured screenshot. Run the program in Python IDLE and use) Tj T* (Win + Shift + S to capture the actual Shell output for submission.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 430.5354 cm
+q
+.141176 .321569 .478431 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Explanation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 400.5354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The Euclidean formula calculates the straight-line distance between two coordinate points. The program adds successive) Tj T* (segment distances and identifies the largest one.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 595.2756 56.69291 re
+f*
+Q
+
+
+endstream
+endobj
+68 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 69
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000247 00000 n 
+0000000296 00000 n 
+0000000573 00000 n 
+0000005761 00000 n 
+0000005868 00000 n 
+0000005975 00000 n 
+0000006087 00000 n 
+0000006199 00000 n 
+0000006277 00000 n 
+0000006383 00000 n 
+0000006651 00000 n 
+0000010013 00000 n 
+0000010121 00000 n 
+0000010389 00000 n 
+0000015277 00000 n 
+0000015385 00000 n 
+0000015653 00000 n 
+0000018829 00000 n 
+0000018937 00000 n 
+0000019205 00000 n 
+0000024608 00000 n 
+0000024716 00000 n 
+0000024984 00000 n 
+0000027573 00000 n 
+0000027681 00000 n 
+0000027949 00000 n 
+0000032896 00000 n 
+0000033004 00000 n 
+0000033272 00000 n 
+0000036062 00000 n 
+0000036170 00000 n 
+0000036438 00000 n 
+0000041177 00000 n 
+0000041285 00000 n 
+0000041553 00000 n 
+0000044263 00000 n 
+0000044371 00000 n 
+0000044639 00000 n 
+0000049521 00000 n 
+0000049629 00000 n 
+0000049897 00000 n 
+0000052601 00000 n 
+0000052709 00000 n 
+0000052977 00000 n 
+0000057767 00000 n 
+0000057875 00000 n 
+0000058143 00000 n 
+0000061394 00000 n 
+0000061502 00000 n 
+0000061770 00000 n 
+0000066721 00000 n 
+0000066829 00000 n 
+0000067097 00000 n 
+0000069746 00000 n 
+0000069854 00000 n 
+0000070122 00000 n 
+0000075020 00000 n 
+0000075128 00000 n 
+0000075396 00000 n 
+0000078452 00000 n 
+0000078560 00000 n 
+0000078828 00000 n 
+0000083699 00000 n 
+0000083807 00000 n 
+0000084075 00000 n 
+0000087267 00000 n 
+trailer
+<<
+/Size 69
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+87375
+%%EOF
+3 1 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+ /AF [70 0 R] /Names << /EmbeddedFiles << /Names [(Content Credentials) 70 0 R] >> >> >>
+endobj
+69 0 obj
+<< /Length 24278 /Type /EmbeddedFile /Subtype /application#2Fc2pa >>
+stream
+  ^÷jumb   jumdc2pa  Ä  ™ 8õqc2pa   ^∞jumb   Gjumdc2ma  Ä  ™ 8õqurn:c2pa:03d50326-097d-4811-9cd4-a37424519e1f   †jumb   )jumdc2as  Ä  ™ 8õqc2pa.assertions   	πjumb   #jumd@À2ªäHùß*÷ÙCic2pa.icon    bfdb image/svg+xml   	wbidb<svg width="716" height="716" viewBox="0 0 716 716" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M508.749 317.399C516.777 287.314 508.991 253.884 485.389 230.282C461.788 206.681 428.36 198.895 398.273 206.923C376.231 184.928 343.39 174.956 311.148 183.596C278.906 192.234 255.45 217.292 247.36 247.361C217.291 255.451 192.233 278.91 183.595 311.149C174.957 343.391 184.927 376.232 206.924 398.274C198.896 428.359 206.683 461.789 230.284 485.391C253.885 508.992 287.313 516.779 317.401 508.75C339.442 530.745 372.286 540.717 404.525 532.079C436.767 523.441 460.223 498.384 468.313 468.315C498.383 460.224 523.44 436.766 532.078 404.526C540.716 372.285 530.747 339.443 508.749 317.402V317.399ZM470.899 244.776C486.892 260.77 493.488 282.601 490.687 303.412L415.577 260.046C412.411 258.218 408.509 258.218 405.345 260.046L317.401 310.82V277.526C317.401 275.191 318.652 273.005 320.676 271.837L387.644 233.174C414.178 218.353 448.346 222.223 470.901 244.776H470.899ZM357.837 311.144L398.275 334.491V381.185L357.837 404.532L317.398 381.185V334.491L357.837 311.144ZM264.776 269.693C265.207 239.305 285.644 211.649 316.453 203.393C338.3 197.54 360.505 202.744 377.127 215.573L302.014 258.937C298.848 260.764 296.898 264.144 296.898 267.798V369.346L268.065 352.699C266.043 351.531 264.776 349.353 264.776 347.017V269.691V269.693ZM203.391 316.454C209.244 294.608 224.854 277.978 244.276 269.999V356.73C244.276 360.384 246.226 363.763 249.392 365.591L337.337 416.365L308.503 433.013C306.481 434.181 303.961 434.188 301.939 433.02L234.971 394.357C208.868 378.789 195.138 347.261 203.391 316.454ZM244.775 470.9C228.781 454.906 222.186 433.075 224.986 412.264L300.096 455.63C303.263 457.457 307.164 457.457 310.328 455.63L398.273 404.856V438.149C398.273 440.485 397.022 442.671 394.997 443.839L328.029 482.502C301.495 497.322 267.327 493.452 244.772 470.9H244.775ZM450.897 445.982C450.466 476.371 430.029 504.027 399.22 512.283C377.373 518.136 355.168 512.932 338.547 500.102L413.659 456.738C416.826 454.911 418.775 451.532 418.775 447.877V346.329L447.609 362.977C449.631 364.145 450.897 366.323 450.897 368.659V445.985V445.982ZM512.282 399.221C506.429 421.068 490.819 437.697 471.397 445.676V358.946C471.397 355.292 469.448 351.912 466.281 350.085L378.336 299.311L407.17 282.663C409.192 281.495 411.712 281.487 413.734 282.655L480.702 321.318C506.805 336.887 520.536 368.415 512.282 399.221Z" fill="black"/>
+</svg>
+  jumb   )jumdcbor  Ä  ™ 8õqc2pa.actions.v2    ﬂcbor¢gactionsÅ§factionlc2pa.createdqdigitalSourceTypexFhttp://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMediamsoftwareAgent¢dnameegpt-6gversionegpt-6dwhenx2026-11-04T04:21:20.804864ZrallActionsIncludedÙ   ¶jumb   (jumdcbor  Ä  ™ 8õqc2pa.hash.data    vcbor•jexclusionsÅ¢estart [ﬁflength^÷dnamenjumbf manifestcalgfsha256dhashX ê^R±
+u∂bÚ%0≤'~5=„∞w‰1¯·FrÈ»—Çcpad@  âjumb   'jumdc2cl  Ä  ™ 8õqc2pa.claim.v2   Zcbor¶jinstanceIDx,xmp:iid:a1e97dcb-2692-4c36-a49b-be8948952bd4tclaim_generator_info£dnamegChatGPTdicon¢curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX u>=W1í≥®NÎL˚¡åt∑'w÷–6«e6„ÒkspecVersione2.2.0isignaturexMself#jumbf=/c2pa/urn:c2pa:03d50326-097d-4811-9cd4-a37424519e1f/c2pa.signaturercreated_assertionsÉ¢curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX u>=W1í≥®NÎL˚¡åt∑'w÷–6«e6„Ò¢curlx*self#jumbf=c2pa.assertions/c2pa.actions.v2dhashX )Ëùop˜[{cÙS
+Ë∞≤ü2Ó‡ª∑•([´∫Õ/W∫¢curlx)self#jumbf=c2pa.assertions/c2pa.hash.datadhashX #bê,à5Ôâ:â ¿X Gˇ∂∏%µª†ùGƒ¯Shdc:titleiimage.pdfcalgfsha256  P8jumb   (jumdc2cs  Ä  ™ 8õqc2pa.signature   Pcbor“ÑYË¢8$!ÇYà0ÇÑ0Çl†•¸ÈpåÚÄ1ÓDds0	*ÜHÜ˜ 0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0260422155105Z270423155104Z0G10	UUS10U
+OpenAI OpCo, LLC10UOpenAI Media Service0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ù∫jLMóÍÅâ∂—æ^XNr°ôﬂiq|Â!#”Å¢5úL£J<Ôn+øÊdÆ◊ÑKi$ZcœÍv
+ê≤e€|<ç·˛¡3wØ'ﬁ; :¥cáòÕMúø¥3D™T07F∏˝öyDsWU£c|›¨X/ÊzÆﬁ•ò√ìNHZ¯‡|§íK’l∫ ¬*»íæu‘îgµW™jöm00,◊Uaåj“S∂ x^ECûNí£ÄÒØ[—≤Î˛ãÔ∫◊7	ï´d-ô…áö¯ø.–ÁcÄñöy†7ì6£5…H…,òcÈDõ5¨πßSlúhs»
+9ÃIÛ £Çg0Çc0Uˇ0 0U#0Ä9=G‹óèØà{MsÕÂÓ§•*0o+c0a09+0Ü-http://crt-c2pa.ssl.com/SSL.com-C2PA-I-R1.cer0$+0Ühttp://ocsp-c2pa.ssl.com0U 00
++ÉË^0)U%"0 ++$
++ÉË^0UÛùM‘Àùr¯F
+vG•hOt0Uˇ¿0	+ÉË^
++ÉË^
+03	+ÉË^&$019bc403-5cd7-7669-afe6-fdb17177d4280	*ÜHÜ˜ Ç Ç8óle°7 Ò˘Ìt∫’¶[5ıglœ+fi@Õı¸“rVﬂ ï(Í¯fﬁBC=¯x†h(â≠µÓ¸ı2“å∏_ÁlÄnÎ[|ó[0Á.B∏∆pö˛˛ 	¨5F’†åIEÄ√∫íU«Zùo“Îÿyõñ:ºDê44}ÙA•3ó/.lQR
+m=I∞À«ÜXÃ‹Óû.È∆9∏3\ ⁄Ó W3T.p(J%)Oí|.“˙›g.zËPx9Q∫É:⁄à~ê#êíıbXöÂ¬®sÜû≈ÿqÈÔ\d{ëÓ7/vòxVdÁoB—}íºÖjomdÖÿˇ"ñÌπÔ≤–\Ñ}h]5[K±≈iHyÊhé†ƒaò:L¯¿$yÂ¶h‡Ô˝÷ê÷.-AduV_ìî∂°úä<∂¿ËmÛ≈CÁv,h§ÚÊÀãàïË{*r$Å=!∆cm/%Ä£ô[™)•˝GÍ·˜kÂ˚[P&m+°Ç]1ı›b®|2‹L«•,r0PÄWìÇ‚ËÆ≥ßØY4ÆrÔ*ùÆx¨‚3ÏSµ…ô“(®*7°N´¸Ã~Xõ'mE·¥*úΩ0W°1. .…‚»T€°íOæ$5ò˛/i‹∏M„ﬁ/Ëlı¡ä‚”˛rw”®+‘WóÆáÿ æì∂âYS0ÇO0Ç7†'+c»ÃM-õÑQrlÙú^2QÆﬁ0	*ÜHÜ˜ 0O1&0$USSL.com C2PA RSA Root CA 202510U
+SSL Corporation10	UUS0251222181730Z301221181730Z0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç À:¥Õ∏úÀ)V∏yß¯kˆ˘ÿèr√¶ò≠*A⁄a.GRΩtQæ]ÏzÇ∂¿˚˙Ë'•ãË˛bÛ`Ò_H ssï‰NnÃNz5ﬁX·◊Ç‹“GCwõﬂHàyü£9§YN^‡NGóÚuB◊v=∂§"‹Ì∆o‘rFå÷Q«µ∑zÚì˘#'’ÄPuäp†hÈÁºÑ(|ú*Í)©¿/˛…vFU∞/cÍ}ûÙ∞D§@ﬁ@6\DäTkWHˇªo§’Íé¬◊|ÿºŒiø† MìE;ô.y“œûü)ªFŸxc0ñ3Qú^ìm˙Â4JXx≥)l]|∏uï<ôw!{ÿ¥JÎ⁄Õ«
+÷…¢ﬁÆó≥∂Qñ⁄íõ√≤ªPƒ˛∂§Lï]-íjObÂ‡*˜i†ú’πì ⁄—ª^O∆Ø˘)L–…ÏÎÛ≤qP{v'hë˘Pà∏w5ÿÕ°·◊”)ÁJ∆áTY$¬g≤m	5€∫Œ∏F•‡ã⁄·ßüjŒ`“ƒ˜¡ﬁsyU‡p¥ÔÍÃ«˛vâNf
+ià-Ì√F¢*‰å‘úWF-Xb’ ®˙~¯¬ŸajÀ5]†ì£≤e®/ÌÔòÁ¸~∫HÙ™°q¸ìØÍßNsài’B¿˘ÑíÖOÀT≥=:¯›)ey Cûñ∏áXñ!Ô—ë{ £Ç&0Ç"0Uˇ0ˇ 0Uˇ0)U%"0 ++$
++ÉË^0U9=G‹óèØà{MsÕÂÓ§•*0U 00
++ÉË^0U#0Ä¸*Ju:Ä˙ôcìsWÏæì∞}√{0x+l0j0$+0Ühttp://ocsp-c2pa.ssl.com0B+0Ü6http://crt-c2pa.ssl.com/SSL.com-C2PA-Root-2025-RSA.cer0	*ÜHÜ˜ Ç Œ6˙>Ôñ6-éØUfˇ{+ kVıÀ≠Ω*Å≠•¶–M£>ì‰ìi’‰å®nÊ7T‚%úÏef(<3=¢ö¢ªÕgdJÁæt!°n√´&ƒ;,⁄Uπ˝GN‡çxõ7Éƒt;≈GaÔmAr§€]CS…ñNÂ‡:ﬂ®›.—ØXó÷ÁÙ_r#<kœΩ9´åì®èßvY>·íı˜Ÿ˚Fb´nn‘àF†≥/*j_•N⁄¯‘¸ÃŸ£<©wE
+¡˘òπ9ÀÃ°q¿*Çq”‰ˆ%‚Q!m÷ﬂ‰SçoJ}é^¿∫’wy!ÅzŒÌ˜õé∂≤äBVùèkA*˛kúãÓ£(œ_ÛÈ–d÷Ó¬âKÎíœıØ¬'M∏ë°7%ôÊ˝Ä‹Ùº«7{æ¥-gX/Á√≥ãqÂDz0∂•≤u>[#~;”T¶:π«Ã3’j5zÅv/˛W⁄i¯>?ÔTèã{F√cû˙Ìƒ/pÑ+ˆVÇÙßÀ$◊l^${:Ω©X;i≥úè“ptˇãn&ª√´E«SñúGµ∆F´^ı¸àãh£5Â|jïeµ´Îπˇ∫∏‡õJG≤ŒÏ/â}ÓØúMƒ…Œı2=è˜&4˛"ãzÌ˘^^g_Q[€$V˚—Y°∑ﬁöf	∂—Ü.˙}~ïyõDf|6Öˆı£gsigTst2°itstTokensÅ°cvalYã0Çá	*ÜHÜ˜†Çx0Çt10	`ÜHe 0Åá*ÜHÜ˜	†xv0t
++Éø0010	`ÜHe  ‡‰
+–EñëßÑñ÷õv∂:GÀ"tƒRIΩ˙Ï¡¢wuâY	 ¨Yáø´¸∂20261104042124.881654Z0Ä'kÛø…œ†Çf0Çˆ0Ç^†a€F(2äåçJ∑ø˛`„l?q∑0	*ÜHÜ˜ 0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CA0260408174626Z370709174626Z0u10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Leaf0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ Í ≈≠î˝˝'ü«xßa ˇ)a*˚°àÕ_®¢óùâ/ãë»º∞ñê=UÇ¡ñé6j≠âiËê€,D2É®
+ÕwÂ5ËÓ®d[˛∏‡éùÁ °(√5›ß7È"˜	Móö¥Ñs¿.|©PG(†¥i∞á)zY˛5B˘ŸiRJ 7ÚhÃÒ-∑Çñ KF\=§Ü∏KEf8¢NM' ï∫uÃNájüt√ $_ƒ~\Æ˛ÛïÌ ëﬂ<ıÜõ*^÷–›…˙»M√…ÑZI,‰8s`R∏LÓ∆Û∑∂ÿ›j©Œ ∫]÷ƒ\5dÚ#S?bée]p+‘…k	ÅERËWÌZF]⁄]vú%yhÉQ§òÑuëròUˇÿ„Cb±Ìig'Aº≈èÚj+ÉIË·-4ª9ØgΩ¥ï»≤ΩEgÕràî_UK,≠ØÌ•Ù$Øw>ÉädQèëå9ñK∞=Æ˙ô°>å=æ6°.ıcµ £x0v0Uˇ0 0Uˇ¿0U%ˇ0
++0U§'TÇ¢äÄ{=≈ÜÕ?pŸ¬ÉôQx0U#0ÄÚ∞«T=#CÖ‹ s–rÄ=∏®0	*ÜHÜ˜ ÇÅ  ˚$OA¿¿ºò≤2 ç ôH5OƒFV~ß>?∂•#˘*H>‡QùE@x¡ªÉNìP…õ'ñhﬂMŒÚˆ“y´ÔÍ¡⁄?ıòYÊpÕâÙÓGã™ÀÏˇå~·FÿëÊú∏‰4Fˇa“x¯}89„RÌ_fËs¿ r;‰®´éÜ*£7!˘;ﬂ{\TÿL«j*KœCt`Äs£…—wØá©˝µ±Ñjnøà*Œö°ö´¢ûÇH7≈cQó€R|og…iB’œı˚≠^ãê‚‡y<.Éjû•Ë%AèÖÌ‰¡†:ç˛ùRPÔáﬁ·dÕU˘! ﬂ∂)Ôü'n—∫4F´J"OÁbw›E#›a-¬1)èƒπ~y´¥W‘¡Ïœ·\{eI∞ÎM´§«'@N¶¥µèœ|√¥Cßv”^0cÓ®Æ5(td´Z5„[/:>N
+a÷0MCõˇN.∆!π>:, W0ujédK¢–	—◊†g&Amg¯pv∏%&V˘ë&'√KI0Ç~0Çf†ç ∆≈≈⁄∞ºÒNï•Íº0	*ÜHÜ˜ 0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0 260408174626Z21260409174626Z0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CA0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ âº‘π‚»°æaªﬁ<df~ßæúm”©0&<Ù‡k 9ﬂï4Ì©¢eH€7Ü2ÉéÃ
+J†¿Û4l†¿òÕ+ü•ÙÀ|Ÿ&ﬁ~…M¢Ôc[ëÊˆY®“˙N˘Ÿ8+ZÕ`ZòÅò®◊S∆„÷.H¨CW	ÈîÚG˘lEä`∑˜Æ/^¢5NÖ8Öiü4ù–MÿC=Õ4m¸cì¸”pªJËvËjNfI†Ì¸¯æÔö∑®w¨Ô∑8Ãπ‘*3ƒv÷@wÀ˛«]-@”ﬁã<¿÷@AôÀî?,} kR¸û P∑	GE·#U˙±OoTòïÙ}∫¯h·"z‹äëCã∂.C±b†æ $é.Ôø§—MË∏?1œ&=≈ PÍÚŸ$ dÌ’sû.px™ﬁV<˘‘Ä¢Ë≠Øˆ˚®£\Àh´D€0wÚƒ4tkUm∆á˚Ú2<ûqE˜ÏP˚˛÷1&ª–ƒMa‚B€Ø√+n_+Ê‚∞Ôç\DÕ¿s}è¢ÈΩmÇº%eÑ0iÌ £{0y0Uˇ0ˇ 0Uˇ0U%0
++0UÚ∞«T=#CÖ‹ s–rÄ=∏®0U#0ÄX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0	*ÜHÜ˜ Ç íÏ7\ﬁlÎd⁄Æ°	0rÆ‹rı;ºz=÷∆·/ˆÉ3}ËW@NLô™k‘ôŸã€k÷L¯ –Y3”°†8\#àD$˚á·ˆì'º°ÌL_g]ˇ5´1“Ï{‘@C7O¬Ñú∫d»∞¢~ö6¯·–Ç≥PC≤‡UΩÄî»YRNJtﬁ]«EXõ∑˙0™;‹Gº’.,π8c,yZ∑›U≠=BﬂàœÒh˛s ‘Z∑ﬁ$óë¿Ág˛‹¶
+Û•F≥QœçØ_„»∏@∆Ω„˘÷Kq–d]Âd¬K¿^w—=«[ûœ{˝îîÁKQ⁄˚dÙ´5îÒˆæ~+›≤ö=P›P√ñdém´sü(;w–óÌoEO±3._FÎÉ∂©aº◊ÇÆ¯Äo¬„i0Êm|:Dí+ò-Ø‹4¡æ•*HÁá»ﬁ8µ3 „ÑPpÒ≤KﬁçOˆë‹_Ö˙ÒÊ—◊ ßÓ¥üˆ!x)Å„pXwÜ§:KóÉFË⁄¬jv…©À!Eæe±†Ü.ÄºYKMõCm¥◊Ñ‡¸’»aêCéjù√Ò!<Ñ]˛;÷ÿ#9E_q˙2˝†ÄïDµO Â√t˝‚NárÜÙQáΩ‘µ+5lí§;kjù∫˝¿;úv¬’9I⁄„î>Pj◊L‚âaùÔÎœ≈√@npz80ÇÊ0ÇŒ†P;lâå$3,è˜Oé˚}ÇÏ0	*ÜHÜ˜ 0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0 260408174625Z21260409174625Z0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ˆíÈ“∫≠û·¨u®Vÿ™±≥jí_ñyıí∑-$¯ø¿Ø`æ¡öÕyö‹lö˛6ö¡ò§?‰,ù∫••Ps≥
+¬˘ÛƒI/xΩ“ÏºÁ?Ùõ—Ú†a¢,â% Q˘%ú“∆/ÙâƒA˛&”m5ÕÏª5`@®ÖQæˆÓêòÒ*ÿùzkjŸ.ŸcÛÂ\)≈Ü"¡ähÕÎ8û©Pñ[#C˚8ˇB|;:°Q/%…H‹1ˇPrÓ|°wÕoÅaÛ?ønË“±¶6‰k2˚˛w®^õ\››1êLéeˇÅÀAŒ(1S CŒHn}÷d≥)‰¥.:∑TZrVWÛ®j}ÔÊa›e»H	Iô2t
+¢Ã›ì S¨#ΩÇÖ ±ÔæÌ°w Ó:F3¢ûÏØÈ1f¥fo≤âì†~ï!ŒA¯^éÈÕπ¿’3]x––'1œP0rs⁄j¬¿ìœ≠‹dáˆ˚Nàvı>Ôˇí,ôw.ˆ‹ò∂ù	:˝Ù	«è_ZÈ~H	+µäÉÚ[<,Øë¢ùA∑Rh—ø∞¿⁄O`ΩÓ)™Ìáçq\(åçà£%cEÿ¸{aèlFT;\…∞ÇØÉ»±#?ü[Ó¢◊Tµ*SÆªÖ€¶˙óûÏÑârÛz@…∂ÖXG[Ò$a9¢Lﬁÿ∆®"Úûø[L,À £f0d0Uˇ0ˇ0Uˇ0UX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0U#0ÄX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0	*ÜHÜ˜ Ç X¯ÅëòÚla˛»Ü÷[Ñ¶÷æ∏¶]]IÀ∏°)Õ-ù∏X˘Ñâ=<¯o’j¥*¢UígÅô^µT˚öFÄ„Q S¿¡àWﬁÔÇU~„Ù}Î&¸Éˇ!®¡¨ﬁ€ì´Õ–0v:ìùŒ™g9.Ätﬂm~v/ÈÍPAã8=lÂ‡>Ó/€dT6^æbE∂—!¥Ä<åÎ⁄ú÷J©’Te[k—X~¿IáÎÎK_í;î◊öÜˆ°YŒG8¨√∞td—¿R;°±{(k·ió¯(;'ˇÆ§û˜eÀ†ÙÍπΩîŒD‚ò±
+HhÓU©!•`è˛ ÷}—{Ü úÛ®x–∆⁄@.»Å\b®*¡˚VÁyéØÏÂ€”p˛FÃc®dÒ<ÈØ•dº^øÖ-∞Œ„π”§◊RªpãÜù˚.ø
+ˆ“U+#B+C\Ï°Ça?œqÌ∞˜óÈ‰À¬<¸¨w∑∂‹ ¡LÈâ≤≤/√~ídúµÑﬁÃñ˝â∞KµC}“È≠Ü˝Ÿ-üΩ Ó¿¥GV#|HëNgâ {b¡…^UÒˆ∆Q#WoÔáæ Fyæî±» (ùïäà&UfRÔŸK∫®ZÈ¬,≠ü√\BÛ°ı'dyqå
+Zû˝π˘Eyp·jµ7ñéX˝EøT%åÉ=Ÿ&3#–Xw¶∏1Çh0Çd0Åì0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CAa€F(2äåçJ∑ø˛`„l?q∑0	`ÜHe †Ç%0	*ÜHÜ˜	1*ÜHÜ˜	0/	*ÜHÜ˜	1" XS∂¯˘Ã1‚k÷; …í∫≥  0+√¸±`5áµ	‘Ë”0Å’*ÜHÜ˜	/1Å≈0Å¬0Åø0Åº ΩOπ≤êLÅ6gànÔA·m˛Ÿ"ùø[íJ–¢ƒ`F"z0Åó0§}0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CAa€F(2äåçJ∑ø˛`„l?q∑0	*ÜHÜ˜ ÇÄÜUaÔ‚Ì€¿ﬁ£u3CF~£è\Ë*$å‰π¯äõú≥Øª‘ök3]uÎg>Â:¸é€áò‘¢§`nA0√uX£Ã')HASâ–A√ª∫hçJr0˝åÅ∂]u¸∆£4z»$;£D›g#Ê≈˘íz¢ç[ıÁ¨Ÿ Ì[”3` µI£˝JG√ﬂá‰Ô>30Ä±Ú„˚—«°UúaaÖd®†˜ÅÙı]µ¿xºÿ…˝ó€‹‘]®;¸ËïÉm°ïƒ≈∑}\ˆW|vÁ/"/Ûí=˝£ZhŒ◊≥∆fæN,=—ﬁó[\ó%œóz˙BÄ¬iû#k˘3)ø¨fg˘ˇ ÿ˛≥í”Y€J~ﬂπÛUC≥≠éXUG‡=¥À@«µ1√F∆0˘√ªÊCk™ŒK}À‹€Óÿ;<LPów”{£Œ#D•€PRS≈CHˆ™À∏L4ﬂ3∆¬’Xs≥°/9eó xà∂≈3¿ˇGÇ+·„âJX≥Åf˘6@rÉ¡erVals°hocspValsÅY◊0Ç”
+ †ÇÃ0Ç»	+0Çπ0Çµ0ÅÈ¢cÛ¢^ÕÕ≈Rπ?Û”5fm»~20261103114036Z0Åò0Åï0I0	+ ﬂÇ7S^Sÿ3±‡=$5ÒuÊ·
+9=G‹óèØà{MsÕÂÓ§•*•¸ÈpåÚÄ1ÓDdsÄ 20261103114036Z†20261110114035Z°"0 0	+020161105114036Z°#0!0	+0Ì‰ôtuÊ˚#ÆnC}Ãµ0	*ÜHÜ˜ ÇÅ ßÉ–˜‰°/ë[ˆ\-áΩ®ògvBVF> œd€Âüggˆs'Â<ÑjÛ5∫ÅC™7˛	•∫Zy®`9 è‹œôD7#h˘òËiÅmˆ≤∆mºúë∏I‚ØÓ‡*Ò+˜<¨D4Êênˇ7%nñ—_pk–?¸ã|'ï˙ŸäõJ£”gkÉ£H√∏;=5»|€•ÿ˜O¡œ60P$¬J¨DÙÏYˆF—Ã√œ˚¨ºüë	Ô2fs†èõòÆD4*fì=Ë≤„Gç˘'»»áŸ–°ã”˘*LÜbÌ»^@⁄J?–*∂[hmπqæ‘wÂÀ`UFm)u∂ç°	ÇO'íB€.|œ|,Okæa ﬂ˚Ü˚îDœ?øf—Q√••ˇ§dâQºÁ3∫@ëöØÔlba&c5æHüEi~´ÜP{≥∫2©÷”Kµ¨]H„ÅÙótåËÊÆnNwïŸ·Z€a£¶πd´:Œ3cœ(≥Py_W◊Ê_@⁄ñ4—k∏•
+†Ç10Ç-0Ç)0Ç†/	õËƒH®EM—g+a0	*ÜHÜ˜ 0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0260102212505Z270102212504Z0M10	UUS10U
+SSL Corp1+0)U"SSL.com C2PA ICA R1 OCSP Responder0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ ≈Á¯ô…˘Â-œhwÈiëP‹©ë\O¿´—ô)„ñŸ˘Y˜fÄäñû*´¶Ü˘dkV∏NêƒÍ,D[ïp\âKºúÁïA¯V ” &Tn=∆≥ü∂tZ¯€kûPhêù‹Zêò©ãCﬁÇùûœz`ÎãØõè)∏Ü	G≠U[^
+èÍÃäım$8Ëz˚¡¬–Ì+ıÁëpÁzπ‘Üüó4hs‡ü2`Ø∆™tFµ0fÚÎz™ÄDxCü ´bÒ“∑L1R¶$D˝#÷2“y¡⁄¨,fÏËàíCÑ/m,ïìÅ<Òâ¨'ã‘I”kb∆h*(¶»s•lÇÈl‘∞
+ Ûß%lY¬∏≤ürn4‚£x;3 q% ≠•π…[∑CN¢”[Ç¸d^t;{ƒ:ÔS´ñ˚ÌÉqúv<ü¬nmÏYdÔ9´˙åü@ˇπ<±ÃOﬂM%4ØÃ]πBÖk6[ö·0s◊Ú˜?‡ùÃá—πíœÉ‘ƒ\f˚≠Ò £Åá0ÅÑ0Uˇ0 0U#0Ä9=G‹óèØà{MsÕÂÓ§•*0	+0 0U%0
++	0UcÛ¢^ÕÕ≈Rπ?Û”5fm»~0UˇÄ0	*ÜHÜ˜ Ç wÏ∫'8¯Ãıl>(‘≥
+œwıÜh|uÉÂIƒh˙√fΩ“pw¸L&à˜0KTdŒë| Ø∑Zµ‰™ôüá6È`ú∞"éΩÊˇ¡5ÿd_¨—>·@â®ÃâÁ†2fµ.øÒ9M˝lsæˆ 6p„’_yŸ÷r¡2LÙÖ©B∏FÇÄ3≈h,ªÂ¸2ûâ_ü–˛üãk\^tüPÒ)úP ƒV¯¯	•xw≥‰ëäÂ *∂·≤≈±!Ω¢ÖÜ8£¨∏:9 ^÷1∂˛∫:™†∫SNÚÛ*OÿdÖÇyZ‹Oã‘S¬=z¿∂¶ΩÑ*Î4Ïí2˚ µi„_:±ìQ…XRòï–6Øö›djÜ^cY¥ÇNßä¸≠˜C9CqQI€««Bë `EØC[i¸J<1ˆ|;Äù¿[^® %ıÌE¸F˛{πˆM,A$§`Ø£ÛÎ„∏ıqÉ»IΩê?Ëÿëé4X6Üﬂ’Œ∂%≈ìY˜s¡3˚0oåπÈ=“{h>6ˆ˘Ïx*˚±˙Bt1ÓöÿHn±¯û–+…ƒè˚<zœ«‰“ßj√3”÷¡ µË"ìLÆ_4éÔi{€|Ãeı1¥UâUÇN»n…√€Oëª^◊EST}hL˜\⁄)›µv,6zãGåÌc‡£´4Ÿ≈∞Eπ∫úÊ•r›∂∏!ﬁê«gcpadY&u                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ˆY D“ó†«EA¨@º`)b(B¨È"xl*H3ÕöÀÉ%B√Øp"jbjˆ%–µ;·‰ÿ2gte“xq«1ë´… ˘˘¿„nà≤¥GŒ{≥+F∞ﬁ®ü˘¢G+ÈôxLö%zybwˆù±◊kè_ºê©Gù∑œ1K4≠˝Ã#Å€ÖÁÜ»{D’≤˙◊j∏;e;°CÑÃ ¸`MUàÒ≥6¸ã. È¯E:ıù3˜¬Ë¸–ıbMÄo%¨+òï“†…πë∆ˇØW7M®Bä“â±Í∑Å∫±Úé>ﬂA(M.†hF}*≈t%ù«†üU≥Åç-ÙJ ªëJ≈É&;¨Ã™
+endstream
+endobj
+70 0 obj
+<< /AFRelationship /C2PA_Manifest /Desc (Content Credentials) /F (Content Credentials) /EF << /F 69 0 R >> /Subtype (application/c2pa) /Type /Filespec /UF (Content Credentials) >>
+endobj
+xref
+3 1
+0000088834 00001 n 
+69 2
+0000088969 00000 n 
+0000113350 00000 n 
+trailer
+<< /Size 71 /Root 3 1 R /Prev 87375 >>
+startxref
+113546
+%%EOF
