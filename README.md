@@ -1,6 +1,6 @@
 # Python Mini Projects (41–50)
 
-**Name:** A. Jaswanthi 
+**Name:** A. Jaswanthi    
 **Roll Number:** 26000007  
 **Class:** CSE-1  
 
